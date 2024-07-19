@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT</title>
+</head>
+<body>
+    <style>
+        body{
+            text-align: justify;
+            margin: auto;
+            margin-left: 600px;
+            margin-top: 150px;
+        }
+        h2{
+            color: red;
+        }
+    </style>
+    <script>
+        document.write('<h3>' + '- Compute the Average of 3 variables' + '</h3>')
+
+        let X = 10;
+        let Y = 30;
+        let Z = 5;
+
+        let total = (X + Y + Z) / 3;
+
+        document.write('<h2>' + 'The Average is: ' + total + '</h2>' + '----------------------------------------------------------------------------------\n');
+        document.write('<h3>' + '-Solve the Diameter' + '</h3>')
+        let R = 4.5;
+
+        let diameter = 2 * R;
+
+        document.write('<h2>' + 'The Diameter is: ' + diameter + '</h2>' + '-----------------------------------------------------------------------------------\n');
+        document.write('<h3>' + '-Create Student information array using JavaScript' + '</h3>')
+
+        let student = {
+            Name: 'JOHN PAUL C. NIETO',
+            Age: 20,
+            Section: 'AU-FA1-IT3-S2',
+            Course: 'BSIT',
+            Subject: 'ITE-233'
+        };
+
+        let studentInfo = "Name: " + student.Name + "<br>" +
+                                "Age: " + student.Age + "<br>" +
+                                "Section: " + student.Section + "<br>" +
+                                "Course: " + student.Course + "<br>" +
+                                "Subject: " + student.Subject;
+        document.write('<h2>' + studentInfo + '<h2>' + '---------------------------------------------------------\n');
+
+    </script>
+</body>
+</html>
